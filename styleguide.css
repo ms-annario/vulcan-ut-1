@@ -1,0 +1,554 @@
+:root {
+  --primary-90: rgba(0, 61, 135, 1);
+  --primary-60: rgba(15, 98, 254, 1);
+  --primary-30: rgba(166, 200, 255, 1);
+  --white: rgba(255, 255, 255, 1);
+  --red-error: rgba(255, 190, 194, 1);
+  --yellow-warning: rgba(241, 194, 27, 1);
+  --green-success: rgba(209, 228, 143, 1);
+  --gray-10: rgba(242, 244, 248, 1);
+  --gray-20: rgba(221, 225, 230, 0.85);
+  --gray-30: rgba(193, 199, 205, 1);
+  --gray-40: rgba(162, 169, 176, 1);
+  --gray-50: rgba(135, 141, 150, 1);
+  --gray-60: rgba(105, 112, 119, 1);
+  --gray-80: rgba(52, 58, 63, 1);
+  --gray-100: rgba(18, 22, 25, 1);
+  --heading-1-font-family: "Sarabun", Helvetica;
+  --heading-1-font-weight: 700;
+  --heading-1-font-size: 32px;
+  --heading-1-letter-spacing: 0px;
+  --heading-1-line-height: 139.9999976158142%;
+  --heading-1-font-style: normal;
+  --heading-2-font-family: "Sarabun", Helvetica;
+  --heading-2-font-weight: 700;
+  --heading-2-font-size: 28px;
+  --heading-2-letter-spacing: 0px;
+  --heading-2-line-height: 139.9999976158142%;
+  --heading-2-font-style: normal;
+  --heading-3-font-family: "Sarabun", Helvetica;
+  --heading-3-font-weight: 700;
+  --heading-3-font-size: 24px;
+  --heading-3-letter-spacing: 0px;
+  --heading-3-line-height: 139.9999976158142%;
+  --heading-3-font-style: normal;
+  --heading-4-font-family: "Sarabun", Helvetica;
+  --heading-4-font-weight: 700;
+  --heading-4-font-size: 20px;
+  --heading-4-letter-spacing: 0px;
+  --heading-4-line-height: 139.9999976158142%;
+  --heading-4-font-style: normal;
+  --heading-5-font-family: "Sarabun", Helvetica;
+  --heading-5-font-weight: 700;
+  --heading-5-font-size: 18px;
+  --heading-5-letter-spacing: 0px;
+  --heading-5-line-height: 139.9999976158142%;
+  --heading-5-font-style: normal;
+  --heading-6-font-family: "Sarabun", Helvetica;
+  --heading-6-font-weight: 700;
+  --heading-6-font-size: 16px;
+  --heading-6-letter-spacing: 0px;
+  --heading-6-line-height: 139.9999976158142%;
+  --heading-6-font-style: normal;
+  --subtitle-m-font-family: "Sarabun", Helvetica;
+  --subtitle-m-font-weight: 400;
+  --subtitle-m-font-size: 16px;
+  --subtitle-m-letter-spacing: 0px;
+  --subtitle-m-line-height: 139.9999976158142%;
+  --subtitle-m-font-style: normal;
+  --subtitle-s-font-family: "Sarabun", Helvetica;
+  --subtitle-s-font-weight: 400;
+  --subtitle-s-font-size: 14px;
+  --subtitle-s-letter-spacing: 0px;
+  --subtitle-s-line-height: 139.9999976158142%;
+  --subtitle-s-font-style: normal;
+  --body-m-16-font-family: "Sarabun", Helvetica;
+  --body-m-16-font-weight: 400;
+  --body-m-16-font-size: 16px;
+  --body-m-16-letter-spacing: 0px;
+  --body-m-16-line-height: 160.0000023841858%;
+  --body-m-16-font-style: normal;
+  --body-s-14-font-family: "Sarabun", Helvetica;
+  --body-s-14-font-weight: 400;
+  --body-s-14-font-size: 14px;
+  --body-s-14-letter-spacing: 0px;
+  --body-s-14-line-height: 160.0000023841858%;
+  --body-s-14-font-style: normal;
+  --body-XS-12-font-family: "Sarabun", Helvetica;
+  --body-XS-12-font-weight: 400;
+  --body-XS-12-font-size: 12px;
+  --body-XS-12-letter-spacing: 0px;
+  --body-XS-12-line-height: 160.0000023841858%;
+  --body-XS-12-font-style: normal;
+  --button-l-font-family: "Sarabun", Helvetica;
+  --button-l-font-weight: 700;
+  --button-l-font-size: 20px;
+  --button-l-letter-spacing: 0.5px;
+  --button-l-line-height: 100%;
+  --button-l-font-style: normal;
+  --button-m-font-family: "Sarabun", Helvetica;
+  --button-m-font-weight: 700;
+  --button-m-font-size: 16px;
+  --button-m-letter-spacing: 0.5px;
+  --button-m-line-height: 100%;
+  --button-m-font-style: normal;
+  --button-s-font-family: "Sarabun", Helvetica;
+  --button-s-font-weight: 700;
+  --button-s-font-size: 14px;
+  --button-s-letter-spacing: 0.5px;
+  --button-s-line-height: 100%;
+  --button-s-font-style: normal;
+  --menu-tabs-font-family: "Sarabun", Helvetica;
+  --menu-tabs-font-weight: 700;
+  --menu-tabs-font-size: 16px;
+  --menu-tabs-letter-spacing: 0px;
+  --menu-tabs-line-height: 100%;
+  --menu-tabs-font-style: normal;
+  --text-sm-bold-font-family: "Sarabun", Helvetica;
+  --text-sm-bold-font-weight: 700;
+  --text-sm-bold-font-size: 14px;
+  --text-sm-bold-letter-spacing: 0px;
+  --text-sm-bold-line-height: 20px;
+  --text-sm-bold-font-style: normal;
+  --text-md-bold-font-family: "Sarabun", Helvetica;
+  --text-md-bold-font-weight: 700;
+  --text-md-bold-font-size: 16px;
+  --text-md-bold-letter-spacing: 0px;
+  --text-md-bold-line-height: 24px;
+  --text-md-bold-font-style: normal;
+  --text-md-regular-font-family: "Sarabun", Helvetica;
+  --text-md-regular-font-weight: 400;
+  --text-md-regular-font-size: 16px;
+  --text-md-regular-letter-spacing: 0px;
+  --text-md-regular-line-height: 24px;
+  --text-md-regular-font-style: normal;
+  --text-sm-semibold-font-family: "Sarabun", Helvetica;
+  --text-sm-semibold-font-weight: 600;
+  --text-sm-semibold-font-size: 14px;
+  --text-sm-semibold-letter-spacing: 0px;
+  --text-sm-semibold-line-height: 20px;
+  --text-sm-semibold-font-style: normal;
+  --display-xs-semibold-font-family: "Sarabun", Helvetica;
+  --display-xs-semibold-font-weight: 600;
+  --display-xs-semibold-font-size: 24px;
+  --display-xs-semibold-letter-spacing: 0px;
+  --display-xs-semibold-line-height: 120.00000476837158%;
+  --display-xs-semibold-font-style: normal;
+  --text-xs-medium-font-family: "Sarabun", Helvetica;
+  --text-xs-medium-font-weight: 500;
+  --text-xs-medium-font-size: 12px;
+  --text-xs-medium-letter-spacing: 0px;
+  --text-xs-medium-line-height: 18px;
+  --text-xs-medium-font-style: normal;
+  --text-md-semibold-font-family: "Sarabun", Helvetica;
+  --text-md-semibold-font-weight: 500;
+  --text-md-semibold-font-size: 16px;
+  --text-md-semibold-letter-spacing: 0px;
+  --text-md-semibold-line-height: 24px;
+  --text-md-semibold-font-style: normal;
+  --text-xs-semibold-font-family: "Sarabun", Helvetica;
+  --text-xs-semibold-font-weight: 600;
+  --text-xs-semibold-font-size: 12px;
+  --text-xs-semibold-letter-spacing: 0px;
+  --text-xs-semibold-line-height: 18px;
+  --text-xs-semibold-font-style: normal;
+  --display-sm-semibold-font-family: "Sarabun", Helvetica;
+  --display-sm-semibold-font-weight: 600;
+  --display-sm-semibold-font-size: 30px;
+  --display-sm-semibold-letter-spacing: 0px;
+  --display-sm-semibold-line-height: 120.00000476837158%;
+  --display-sm-semibold-font-style: normal;
+  --text-xl-bold-font-family: "Sarabun", Helvetica;
+  --text-xl-bold-font-weight: 700;
+  --text-xl-bold-font-size: 20px;
+  --text-xl-bold-letter-spacing: 0px;
+  --text-xl-bold-line-height: 30px;
+  --text-xl-bold-font-style: normal;
+  --shadows-shadow-xs: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  --shadows-shadow-lg: 0px 4px 6px -2px rgba(16, 24, 40, 0.03),
+    0px 12px 16px -4px rgba(16, 24, 40, 0.08);
+  --shadows-shadow-md: 0px 2px 4px -2px rgba(16, 24, 40, 0.06),
+    0px 4px 8px -2px rgba(16, 24, 40, 0.1);
+  --collection-1-primary-90: rgba(0, 61, 135, 1);
+  --collection-1-primary-60: rgba(15, 98, 254, 1);
+  --collection-1-gray-30: rgba(193, 199, 205, 1);
+  --collection-1-annotation: rgba(255, 0, 199, 1);
+  --2-radius-radius-2xl: 16px;
+  --2-radius-radius-full: 9999px;
+  --2-radius-radius-md: 8px;
+  --primitives-colors-gray-light-mode-300: rgba(208, 213, 221, 1);
+  --primitives-colors-gray-dark-mode-700: rgba(51, 55, 65, 1);
+  --primitives-colors-gray-light-mode-700: rgba(52, 64, 84, 1);
+  --primitives-colors-gray-dark-mode-300: rgba(206, 207, 210, 1);
+  --primitives-colors-base-white: rgba(255, 255, 255, 1);
+  --primitives-colors-brand-700: rgba(89, 37, 220, 1);
+  --primitives-colors-brand-600: rgba(105, 56, 239, 1);
+  --primitives-colors-gray-light-mode-600: rgba(71, 84, 103, 1);
+  --primitives-colors-gray-dark-mode-400: rgba(148, 150, 156, 1);
+  --primitives-colors-success-600: rgba(7, 148, 85, 1);
+  --primitives-colors-success-400: rgba(71, 205, 137, 1);
+  --primitives-colors-gray-light-mode-900: rgba(16, 24, 40, 1);
+  --primitives-colors-gray-dark-mode-50: rgba(245, 245, 246, 1);
+  --primitives-colors-brand-800: rgba(74, 31, 184, 1);
+  --primitives-colors-gray-dark-mode-100: rgba(240, 241, 241, 1);
+  --primitives-colors-blue-700: rgba(23, 92, 211, 1);
+  --primitives-colors-blue-300: rgba(132, 202, 255, 1);
+  --primitives-colors-purple-700: rgba(89, 37, 220, 1);
+  --primitives-colors-purple-300: rgba(189, 180, 254, 1);
+  --primitives-colors-brand-100: rgba(235, 233, 254, 1);
+  --primitives-spacing-0-5-2px: 2px;
+  --primitives-spacing-1-5-6px: 6px;
+  --primitives-spacing-2-8px: 8px;
+  --primitives-colors-gray-light-mode-50: rgba(249, 250, 251, 1);
+  --primitives-colors-gray-dark-mode-900: rgba(22, 27, 38, 1);
+  --primitives-colors-gray-light-mode-200: rgba(234, 236, 240, 1);
+  --primitives-colors-ros-500: rgba(246, 61, 104, 1);
+  --primitives-colors-blue-50: rgba(239, 248, 255, 1);
+  --primitives-colors-blue-950: rgba(16, 42, 86, 1);
+  --primitives-colors-blue-200: rgba(178, 221, 255, 1);
+  --primitives-colors-blue-800: rgba(24, 73, 169, 1);
+  --primitives-colors-purple-50: rgba(244, 243, 255, 1);
+  --primitives-colors-purple-950: rgba(39, 17, 95, 1);
+  --primitives-colors-purple-200: rgba(217, 214, 254, 1);
+  --primitives-colors-purple-800: rgba(74, 31, 184, 1);
+  --primitives-colors-brand-400: rgba(155, 138, 251, 1);
+  --primitives-spacing-1-4px: 4px;
+  --primitives-spacing-3-12px: 12px;
+  --primitives-colors-brand-300: rgba(189, 180, 254, 1);
+  --primitives-spacing-4-16px: 16px;
+  --primitives-colors-brand-50: rgba(244, 243, 255, 1);
+  --primitives-colors-gray-dark-mode-800: rgba(31, 36, 47, 1);
+  --primitives-colors-brand-500: rgba(122, 90, 248, 1);
+  --primitives-colors-gray-dark-mode-950: rgba(12, 17, 29, 1);
+  --1-color-modes-colors-border-border-primary: var(
+    --primitives-colors-gray-light-mode-300
+  );
+  --1-color-modes-colors-text-text-secondary-700: var(
+    --primitives-colors-gray-light-mode-700
+  );
+  --1-color-modes-colors-text-text-white: var(--primitives-colors-base-white);
+  --1-color-modes-component-colors-components-buttons-secondary-color-button-secondary-color-fg: var(
+    --primitives-colors-brand-700
+  );
+  --1-color-modes-component-colors-utility-gray-utility-gray-600: var(
+    --primitives-colors-gray-light-mode-600
+  );
+  --1-color-modes-component-colors-utility-brand-utility-brand-600-alt: var(
+    --primitives-colors-brand-600
+  );
+  --1-color-modes-colors-text-text-success-primary-600: var(
+    --primitives-colors-success-600
+  );
+  --1-color-modes-colors-text-text-primary-900: var(
+    --primitives-colors-gray-light-mode-900
+  );
+  --1-color-modes-component-colors-components-buttons-tertiary-color-button-tertiary-color-fg-hover: var(
+    --primitives-colors-brand-800
+  );
+  --1-color-modes-component-colors-utility-gray-utility-gray-700: var(
+    --primitives-colors-gray-light-mode-700
+  );
+  --1-color-modes-component-colors-utility-blue-utility-blue-700: var(
+    --primitives-colors-blue-700
+  );
+  --1-color-modes-component-colors-utility-purple-utility-purple-700: var(
+    --primitives-colors-purple-700
+  );
+  --1-color-modes-colors-background-bg-brand-secondary: var(
+    --primitives-colors-brand-100
+  );
+  --1-color-modes-component-colors-utility-gray-utility-gray-50: var(
+    --primitives-colors-gray-light-mode-50
+  );
+  --1-color-modes-component-colors-utility-gray-utility-gray-200: var(
+    --primitives-colors-gray-light-mode-200
+  );
+  --1-color-modes-component-colors-utility-blue-utility-blue-50: var(
+    --primitives-colors-blue-50
+  );
+  --1-color-modes-component-colors-utility-blue-utility-blue-200: var(
+    --primitives-colors-blue-200
+  );
+  --1-color-modes-component-colors-utility-purple-utility-purple-50: var(
+    --primitives-colors-purple-50
+  );
+  --1-color-modes-component-colors-utility-purple-utility-purple-200: var(
+    --primitives-colors-purple-200
+  );
+  --1-color-modes-component-colors-utility-brand-utility-brand-600: var(
+    --primitives-colors-brand-600
+  );
+  --1-color-modes-component-colors-components-buttons-secondary-color-button-secondary-color-bg: var(
+    --primitives-colors-base-white
+  );
+  --1-color-modes-component-colors-components-buttons-secondary-color-button-secondary-color-border: var(
+    --primitives-colors-brand-300
+  );
+  --1-color-modes-component-colors-components-buttons-primary-button-primary-bg-hover: var(
+    --primitives-colors-brand-700
+  );
+  --1-color-modes-component-colors-components-buttons-primary-button-primary-border-hover: var(
+    --primitives-colors-brand-700
+  );
+  --1-color-modes-component-colors-utility-brand-utility-brand-50-alt: var(
+    --primitives-colors-brand-50
+  );
+  --1-color-modes-component-colors-components-buttons-primary-button-primary-fg-hover: var(
+    --primitives-colors-base-white
+  );
+  --1-color-modes-component-colors-components-buttons-secondary-color-button-secondary-color-fg-hover: var(
+    --primitives-colors-brand-800
+  );
+  --1-color-modes-component-colors-components-buttons-secondary-color-button-secondary-color-bg-hover: var(
+    --primitives-colors-brand-50
+  );
+  --1-color-modes-component-colors-components-buttons-secondary-color-button-secondary-color-border-hover: var(
+    --primitives-colors-brand-300
+  );
+  --1-color-modes-colors-background-bg-quaternary: var(
+    --primitives-colors-gray-light-mode-200
+  );
+  --1-color-modes-colors-foreground-fg-brand-primary-600: var(
+    --primitives-colors-brand-600
+  );
+  --1-color-modes-colors-background-bg-secondary: var(
+    --primitives-colors-gray-light-mode-50
+  );
+  --1-color-modes-colors-background-bg-primary-alt: var(
+    --primitives-colors-base-white
+  );
+  --1-color-modes-colors-border-border-secondary: var(
+    --primitives-colors-gray-light-mode-200
+  );
+  --1-color-modes-component-colors-components-avatars-avatar-contrast-border: rgba(
+    0,
+    0,
+    0,
+    0.08
+  );
+  --1-color-modes-component-colors-components-avatars-avatar-profile-photo-border: var(
+    --primitives-colors-base-white
+  );
+  --3-spacing-spacing-xxs: var(--primitives-spacing-0-5-2px);
+  --3-spacing-spacing-sm: var(--primitives-spacing-1-5-6px);
+  --3-spacing-spacing-md: var(--primitives-spacing-2-8px);
+  --3-spacing-spacing-xs: var(--primitives-spacing-1-4px);
+  --3-spacing-spacing-lg: var(--primitives-spacing-3-12px);
+  --3-spacing-spacing-xl: var(--primitives-spacing-4-16px);
+}
+
+/*
+
+To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+
+<body data-1-color-modes-mode="light-mode">
+    <!-- the rest of your content -->
+</body>
+
+You can apply the theme on any DOM node, not just the `body`
+
+*/
+
+[data-1-color-modes-mode="light-mode"] {
+  --1-color-modes-colors-border-border-primary: var(
+    --primitives-colors-gray-light-mode-300
+  );
+  --1-color-modes-colors-text-text-secondary-700: var(
+    --primitives-colors-gray-light-mode-700
+  );
+  --1-color-modes-component-colors-components-buttons-secondary-color-button-secondary-color-fg: var(
+    --primitives-colors-brand-700
+  );
+  --1-color-modes-component-colors-utility-gray-utility-gray-600: var(
+    --primitives-colors-gray-light-mode-600
+  );
+  --1-color-modes-component-colors-utility-brand-utility-brand-600-alt: var(
+    --primitives-colors-brand-600
+  );
+  --1-color-modes-colors-text-text-success-primary-600: var(
+    --primitives-colors-success-600
+  );
+  --1-color-modes-colors-text-text-primary-900: var(
+    --primitives-colors-gray-light-mode-900
+  );
+  --1-color-modes-component-colors-components-buttons-tertiary-color-button-tertiary-color-fg-hover: var(
+    --primitives-colors-brand-800
+  );
+  --1-color-modes-component-colors-utility-gray-utility-gray-700: var(
+    --primitives-colors-gray-light-mode-700
+  );
+  --1-color-modes-component-colors-utility-blue-utility-blue-700: var(
+    --primitives-colors-blue-700
+  );
+  --1-color-modes-component-colors-utility-purple-utility-purple-700: var(
+    --primitives-colors-purple-700
+  );
+  --1-color-modes-colors-background-bg-brand-secondary: var(
+    --primitives-colors-brand-100
+  );
+  --1-color-modes-component-colors-utility-gray-utility-gray-50: var(
+    --primitives-colors-gray-light-mode-50
+  );
+  --1-color-modes-component-colors-utility-gray-utility-gray-200: var(
+    --primitives-colors-gray-light-mode-200
+  );
+  --1-color-modes-component-colors-utility-blue-utility-blue-50: var(
+    --primitives-colors-blue-50
+  );
+  --1-color-modes-component-colors-utility-blue-utility-blue-200: var(
+    --primitives-colors-blue-200
+  );
+  --1-color-modes-component-colors-utility-purple-utility-purple-50: var(
+    --primitives-colors-purple-50
+  );
+  --1-color-modes-component-colors-utility-purple-utility-purple-200: var(
+    --primitives-colors-purple-200
+  );
+  --1-color-modes-component-colors-utility-brand-utility-brand-600: var(
+    --primitives-colors-brand-600
+  );
+  --1-color-modes-component-colors-components-buttons-secondary-color-button-secondary-color-bg: var(
+    --primitives-colors-base-white
+  );
+  --1-color-modes-component-colors-components-buttons-secondary-color-button-secondary-color-border: var(
+    --primitives-colors-brand-300
+  );
+  --1-color-modes-component-colors-utility-brand-utility-brand-50-alt: var(
+    --primitives-colors-brand-50
+  );
+  --1-color-modes-component-colors-components-buttons-secondary-color-button-secondary-color-fg-hover: var(
+    --primitives-colors-brand-800
+  );
+  --1-color-modes-component-colors-components-buttons-secondary-color-button-secondary-color-bg-hover: var(
+    --primitives-colors-brand-50
+  );
+  --1-color-modes-component-colors-components-buttons-secondary-color-button-secondary-color-border-hover: var(
+    --primitives-colors-brand-300
+  );
+  --1-color-modes-colors-background-bg-quaternary: var(
+    --primitives-colors-gray-light-mode-200
+  );
+  --1-color-modes-colors-foreground-fg-brand-primary-600: var(
+    --primitives-colors-brand-600
+  );
+  --1-color-modes-colors-background-bg-secondary: var(
+    --primitives-colors-gray-light-mode-50
+  );
+  --1-color-modes-colors-background-bg-primary-alt: var(
+    --primitives-colors-base-white
+  );
+  --1-color-modes-colors-border-border-secondary: var(
+    --primitives-colors-gray-light-mode-200
+  );
+  --1-color-modes-component-colors-components-avatars-avatar-contrast-border: rgba(
+    0,
+    0,
+    0,
+    0.08
+  );
+  --1-color-modes-component-colors-components-avatars-avatar-profile-photo-border: var(
+    --primitives-colors-base-white
+  );
+}
+
+[data-1-color-modes-mode="dark-mode"] {
+  --1-color-modes-colors-border-border-primary: var(
+    --primitives-colors-gray-dark-mode-700
+  );
+  --1-color-modes-colors-text-text-secondary-700: var(
+    --primitives-colors-gray-dark-mode-300
+  );
+  --1-color-modes-component-colors-components-buttons-secondary-color-button-secondary-color-fg: var(
+    --primitives-colors-gray-dark-mode-300
+  );
+  --1-color-modes-component-colors-utility-gray-utility-gray-600: var(
+    --primitives-colors-gray-dark-mode-400
+  );
+  --1-color-modes-component-colors-utility-brand-utility-brand-600-alt: var(
+    --1-color-modes-component-colors-utility-gray-utility-gray-600
+  );
+  --1-color-modes-colors-text-text-success-primary-600: var(
+    --primitives-colors-success-400
+  );
+  --1-color-modes-colors-text-text-primary-900: var(
+    --primitives-colors-gray-dark-mode-50
+  );
+  --1-color-modes-component-colors-components-buttons-tertiary-color-button-tertiary-color-fg-hover: var(
+    --primitives-colors-gray-dark-mode-100
+  );
+  --1-color-modes-component-colors-utility-gray-utility-gray-700: var(
+    --primitives-colors-gray-dark-mode-300
+  );
+  --1-color-modes-component-colors-utility-blue-utility-blue-700: var(
+    --primitives-colors-blue-300
+  );
+  --1-color-modes-component-colors-utility-purple-utility-purple-700: var(
+    --primitives-colors-purple-300
+  );
+  --1-color-modes-colors-background-bg-brand-secondary: var(
+    --primitives-colors-brand-600
+  );
+  --1-color-modes-component-colors-utility-gray-utility-gray-50: var(
+    --primitives-colors-gray-dark-mode-900
+  );
+  --1-color-modes-component-colors-utility-gray-utility-gray-200: var(
+    --primitives-colors-gray-dark-mode-700
+  );
+  --1-color-modes-component-colors-utility-blue-utility-blue-50: var(
+    --primitives-colors-blue-950
+  );
+  --1-color-modes-component-colors-utility-blue-utility-blue-200: var(
+    --primitives-colors-blue-800
+  );
+  --1-color-modes-component-colors-utility-purple-utility-purple-50: var(
+    --primitives-colors-purple-950
+  );
+  --1-color-modes-component-colors-utility-purple-utility-purple-200: var(
+    --primitives-colors-purple-800
+  );
+  --1-color-modes-component-colors-utility-brand-utility-brand-600: var(
+    --primitives-colors-brand-400
+  );
+  --1-color-modes-component-colors-components-buttons-secondary-color-button-secondary-color-bg: var(
+    --primitives-colors-gray-dark-mode-900
+  );
+  --1-color-modes-component-colors-components-buttons-secondary-color-button-secondary-color-border: var(
+    --primitives-colors-gray-dark-mode-700
+  );
+  --1-color-modes-component-colors-utility-brand-utility-brand-50-alt: var(
+    --1-color-modes-component-colors-utility-gray-utility-gray-50
+  );
+  --1-color-modes-component-colors-components-buttons-secondary-color-button-secondary-color-fg-hover: var(
+    --primitives-colors-gray-dark-mode-100
+  );
+  --1-color-modes-component-colors-components-buttons-secondary-color-button-secondary-color-bg-hover: var(
+    --primitives-colors-gray-dark-mode-800
+  );
+  --1-color-modes-component-colors-components-buttons-secondary-color-button-secondary-color-border-hover: var(
+    --primitives-colors-gray-dark-mode-700
+  );
+  --1-color-modes-colors-background-bg-quaternary: var(
+    --primitives-colors-gray-dark-mode-700
+  );
+  --1-color-modes-colors-foreground-fg-brand-primary-600: var(
+    --primitives-colors-brand-500
+  );
+  --1-color-modes-colors-background-bg-secondary: var(
+    --primitives-colors-gray-dark-mode-900
+  );
+  --1-color-modes-colors-background-bg-primary-alt: var(
+    --1-color-modes-colors-background-bg-secondary
+  );
+  --1-color-modes-colors-border-border-secondary: var(
+    --primitives-colors-gray-dark-mode-800
+  );
+  --1-color-modes-component-colors-components-avatars-avatar-contrast-border: rgba(
+    255,
+    255,
+    255,
+    0.12
+  );
+  --1-color-modes-component-colors-components-avatars-avatar-profile-photo-border: var(
+    --primitives-colors-gray-dark-mode-950
+  );
+}
